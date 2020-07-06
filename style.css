@@ -1,0 +1,115 @@
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  padding: 20px 0;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h5 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.welcomepage {
+  background-color: #f35588;
+  color: #fafafa;
+  text-align: center;
+  padding: 0 0 50px 0;
+  line-height: 2rem;
+}
+
+.flowerbanner1 , .flowerbanner2 {
+  position: relative;
+  display: inline-block;
+}
+
+.aboutme {
+  background-color: #fafafa;
+  color: #f35588;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.aboutmeimage {
+  border-radius: 250px;
+  width: 30%;
+  padding-bottom: 30px;
+}
+
+.mywork {
+  background-color: #fafafa;
+  color: #f35588;
+  text-align: center;
+}
+
+.workcard {
+ margin: auto;
+}
+
+.contactpage {
+  background-color: #fafafa;
+  color: #f35588;
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 3rem;
+}
+
+.contactimage {
+  border-radius: 250px;
+  padding-bottom: 40px;
+}
+
+.contactbtn {
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.contactbtn:hover {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.footerpage {
+  background-color: #f35588;
+  color: #fafafa;
+  text-align: center;
+  padding: 30px;
+  line-height: 2rem;
+}
+
+.footer-link {
+  color: #fafafa;
+  font-size: 1rem;
+  padding: 50px 20px;
+}
+
+.footer-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width:992px) {
+  .workcard {
+    padding-bottom: 30px;
+  }
+
+  .flowerbanner1 {
+    display: none;
+  }
+
+  .flowerbanner2 {
+    width: 80%;
+  }
+}
